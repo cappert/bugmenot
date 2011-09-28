@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://bugmenot/locale/bugmenot.dtd">
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+<dialog buttons="accept, cancel" id="bugmenot-options-dialog" title="BugMeNot"
+	ondialogaccept="bugmenot_saveOptions()" onload="bugmenot_initializeOptions()"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://bugmenot/content/bugmenotOptions.js"/>
+	<vbox flex="1">
+        <groupbox>
+		<caption label="&bugmenot.options;"/>
+		<hbox>
+		<vbox>
+			<checkbox id="bugmenotDisableAutoSubmit" label="&disable.auto.submit;" prefstring="bugmenot.optDisableAutoSubmit" />
+			<checkbox id="bugmenotDisableAutoNext" label="&disable.auto.next;" prefstring="bugmenot.optDisableAutoNext" />
+			<checkbox id="bugmenotDisableExtraMenu" label="&disable.extra.menu;" prefstring="bugmenot.optDisableExtraMenu" />
+			</vbox>
+		</hbox>
+        </groupbox>  
+	</vbox>
+</dialog>

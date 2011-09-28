@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{987311C6-B504-4aa2-90BF-60CC49808D42}</em:id>
+    <em:version>2.2</em:version>
+    <em:type>2</em:type>
+    <em:name>BugMeNot</em:name>
+	<!-- The localization put here only works for FF3. The localization of the description for FF2 is put in locale/bugmenot/bugmenot.properties -->
+	<em:localized>
+      <Description>
+        <em:locale>en-US</em:locale>
+		<em:name>BugMeNot</em:name>
+        <em:description>Bypass compulsory web registration with the context menu via www.bugmenot.com. install rdf</em:description>
+      </Description>
+    </em:localized>
+	<em:localized>
+      <Description>
+        <em:locale>fr-FR</em:locale>
+		<em:name>BugMeNot</em:name>
+        <em:description>Contourne l'inscription obligatoire des sites avec le menu contextuel via www.bugmenot.com.</em:description>
+      </Description>
+    </em:localized>
+	<em:localized>
+      <Description>
+        <em:locale>it-IT</em:locale>
+		<em:name>BugMeNot</em:name>
+        <em:description>Raggira la registrazione obbligatoria ai siti col menu contestuale attraverso www.bugmenot.com.</em:description>
+      </Description>
+    </em:localized>
+    <em:creator>Eric Hamiter</em:creator>
+    <em:homepageURL>http://erichamiter.com</em:homepageURL>
+    <em:contributor>Dmytri Kleiner</em:contributor>
+    <em:contributor>Michael Lidman</em:contributor>
+    <em:contributor>Joseph Wain</em:contributor>
+    <em:contributor>Dorian Scholz</em:contributor>
+	<em:contributor>Andrew</em:contributor>
+	<em:contributor>Thomas Burette</em:contributor>
+    <em:iconURL>chrome://bugmenot/skin/bugmenot.png</em:iconURL>
+    <em:aboutURL>chrome://bugmenot/content/about.xul</em:aboutURL>
+    <em:optionsURL>chrome://bugmenot/content/bugmenotOptions.xul</em:optionsURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>3.5.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>   
+</RDF>

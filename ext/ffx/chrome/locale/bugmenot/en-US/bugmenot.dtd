@@ -1,0 +1,25 @@
+<!ENTITY  bugmenot.login        "Login with BugMeNot">
+<!ENTITY  bugmenot.accesskey    "N">
+
+<!ENTITY  about.title           "BugMeNot - About">
+<!ENTITY  created.by            "Created By:">
+<!ENTITY  codingver10           "Coding for version 1.0+:">
+<!ENTITY  additional.coding     "Additional Coding:">
+<!ENTITY  homepage              "Home Page">
+<!ENTITY  icon.design           "Icon Design:">
+<!ENTITY  mail                  "E-mail">
+<!ENTITY  close.button          "Close">
+
+<!ENTITY  next.account          "Try Next Account">
+<!ENTITY  next.accesskey        "N">
+<!ENTITY  bugmenot.accounts     "BugMeNot Accounts">
+<!ENTITY  failed.account        "Report Failed Login">
+<!ENTITY  failed.accesskey      "F">
+<!ENTITY  successful.account    "Report Successful Login">
+<!ENTITY  successful.accesskey  "S">
+
+<!ENTITY  bugmenot.options      "BugMeNot Options">
+<!ENTITY  disable.auto.submit   "Disable automatic submission of the login form">
+<!ENTITY  disable.auto.next     "Disable automatically attempting the next account when login fails">
+<!ENTITY  disable.extra.menu    "Disable account options submenu">
+<!ENTITY  disable.reporting     "Disable reporting of login failure to bugmenot.com">

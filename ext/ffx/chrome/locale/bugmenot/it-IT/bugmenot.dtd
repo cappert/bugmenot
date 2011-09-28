@@ -1,0 +1,25 @@
+<!ENTITY  bugmenot.login        "Accedere con BugMeNot">
+<!ENTITY  bugmenot.accesskey    "N">
+
+<!ENTITY  about.title           "Informazioni su BugMeNot">
+<!ENTITY  created.by            "Creato da:">
+<!ENTITY  codingver10           "Elaborazione per la versione 1.0+:">
+<!ENTITY  additional.coding     "Elaborazioni aggiuntive:">
+<!ENTITY  homepage              "Sito:">
+<!ENTITY  icon.design           "Ideazione icona:">
+<!ENTITY  mail                  "E-mail">
+<!ENTITY  close.button          "Chiudi">
+
+<!ENTITY  next.account          "Provare il prossimo account">
+<!ENTITY  next.accesskey        "P">
+<!ENTITY  bugmenot.accounts     "Account BugMeNot">
+<!ENTITY  failed.account        "Riporta l'accesso fallito">
+<!ENTITY  failed.accesskey      "F">
+<!ENTITY  successful.account    "Riporta l'accesso positivo">
+<!ENTITY  successful.accesskey  "S">
+
+<!ENTITY  bugmenot.options      "Opzioni di BugMeNot">
+<!ENTITY  disable.auto.submit   "Disabilita la conferma automatica degli accessi.">
+<!ENTITY  disable.auto.next     "Disabilita la verifica automatica di un altro account quando gli accessi falliscono.">
+<!ENTITY  disable.extra.menu    "Disabilita il sottomenu delle opzioni dell'account.">
+<!ENTITY  disable.reporting     "Disabilita il riporto degli accessi falliti a www.bugmenot.com">

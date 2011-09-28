@@ -1,0 +1,25 @@
+﻿<!ENTITY  bugmenot.login        "S'identifier avec BugMeNot">
+<!ENTITY  bugmenot.accesskey    "B">
+
+<!ENTITY  about.title           "BugMeNot - À propos de">
+<!ENTITY  created.by            "Créée par :">
+<!ENTITY  codingver10           "Codage pour version 1.0+ :">
+<!ENTITY  additional.coding     "Codage supplémentaire:">
+<!ENTITY  homepage              "Page d'accueil">
+<!ENTITY  icon.design           "Conception icône :">
+<!ENTITY  mail                  "E-mail">
+<!ENTITY  close.button          "Fermer">
+
+<!ENTITY  next.account          "Essayer le compte suivant">
+<!ENTITY  next.accesskey        "E">
+<!ENTITY  bugmenot.accounts     "Comptes BugMeNot">
+<!ENTITY  failed.account        "Rapporter échec identification">
+<!ENTITY  failed.accesskey      "E">
+<!ENTITY  successful.account    "Rapporter succès identification">
+<!ENTITY  successful.accesskey  "S">
+
+<!ENTITY  bugmenot.options      "Options BugMeNot">
+<!ENTITY  disable.auto.submit   "Désactiver la soumission automatique du formulaire d'identification">
+<!ENTITY  disable.auto.next     "Désactiver l'essai automatique du prochain compte quand l'identification échoue">
+<!ENTITY  disable.extra.menu    "Désactiver le sous-menu d'options des comptes">
+<!ENTITY  disable.reporting     "Désactiver le rapportage d'échec d'identification à bugmenot.com">

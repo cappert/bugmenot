@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://bugmenot/locale/bugmenot.dtd">
+<window class="dialog"
+	title="&about.title;"
+	orient="vertical"
+	autostretch="always"
+	onload="sizeToContent()"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<!-- Original template by Jed Brown -->
+
+<groupbox align="center" orient="horizontal">
+<vbox>
+  <text value="BugMeNot" style="font-weight: bold; font-size: x-large;"/>
+  <text value="ver. 2.1"/>
+  <separator class="thin"/>
+  <text value="&created.by;" style="font-weight: bold;"/>
+  <text value="Eric Hamiter" class="url"
+        onclick="window.open('http://roachfiend.com'); window.close();"/>
+  <separator class="thin"/>
+  <text value="&codingver10;" style="font-weight: bold;"/>
+  <text value="Dmytri Kleiner" class="url"
+        onclick="window.open('http://www.kleiner-weise.de/'); window.close();"/>
+  <separator class="thin"/>
+  <text value="&additional.coding;" style="font-weight: bold;"/>
+  <text value="Michael Lidman"/>
+  <text value="Andrew" class="url"
+        onclick="window.open('http://forum.extenzilla.org/index.php?action=pm;sa=send;u=2180'); window.close();"/>
+  <text value="Thomas Burette"/>
+  <separator class="thin"/>
+  <text value="&icon.design;" style="font-weight: bold;"/>
+  <text value="Joseph Wain"/>
+  <separator class="thin"/>
+  <text value="&homepage;" style="font-weight: bold;"/>
+  <text value="http://erichamiter.com/"
+         class="url"
+         onclick="window.open('http://erichamiter.com/'); window.close();"/>
+  <separator class="thin"/>
+</vbox>
+<spring flex="1"/>
+<image src="chrome://bugmenot/skin/bugmenotb.png"/>
+</groupbox>
+
+  <hbox>
+  <spacer flex="1"/>
+   <button label="&close.button;" oncommand="window.close();"/>
+  </hbox>
+
+</window>

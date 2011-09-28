@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://bugmenot/locale/bugmenot.dtd">
+<overlay id="BugMeNotOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://bugmenot/content/bugmenotOverlay.js"/>
+	<popup id="contentAreaContextMenu">
+		<menuseparator id="bugmenotseparator" hidden="true" insertafter="context-selectAll" />
+		<menuitem id="bugmenot"  label="&bugmenot.login;" accesskey="&bugmenot.accesskey;" hidden="true" oncommand="BugMeNot();"/>
+		<menu id="bugmenotcurrent" hidden="true">
+		<menupopup id="bugmenotcurrent-popup">
+			<menuitem id="bugmenotretry" label="&next.account;" accesskey="&next.accesskey;" hidden="true" oncommand="BugMeNot_Retry();"/>  		
+			<menu id="bugmenotaccounts" label="&bugmenot.accounts;"  hidden="true">
+				<menupopup id="bugmenotaccounts-popup" onpopupshowing="BugMeNot_PopulateAccountsMenu();" />
+			  </menu>  
+			<menuitem id="bugmenotfailure" label="&failed.account;" accesskey="&failed.accesskey;"  hidden="true" oncommand="BugMeNot_Failure();"/>  
+			<menuitem id="bugmenotsuccess" label="&successful.account;" accesskey="&successful.accesskey;"  hidden="true" oncommand="BugMeNot_Success();"/>
+		</menupopup>
+		</menu>
+	</popup>
+</overlay>
