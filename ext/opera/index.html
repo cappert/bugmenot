@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<script>
+
+var theButton; // the button variable
+
+window.addEventListener("load", function()
+	{	
+		var UIItemProperties = { // options for the button
+			disabled: false,
+			title: "Bug Me Not",
+			icon: "icons/favicon.gif",
+			popup: {
+				href: "http://www.bugmenot.com/",
+				width: "480px",
+				height: "500px"
+			},
+		};
+				
+		UIItemProperties.onclick = function() 
+			{ 
+				//opera bug: getFocused returns null :( 
+				//neither opera.extension.tabs.onfocus nor opera.extension.tabs.getFocused() and not even the tab.focused property is working in the 11 Alpha
+				var tab = opera.extension.tabs.getFocused();
+				//opera.postError(tab);
+				if (tab.url.match(/\/\/([^\/]+)\//))
+					theButton.popup.href = "http://www.bugmenot.com/view/"+RegExp.$1;
+				else
+					theButton.popup.href = "http://www.bugmenot.com/";
+			};
+		
+		theButton = opera.contexts.toolbar.createItem( UIItemProperties ); // create the button
+				
+		//opera.postError(JSON.stringify(theButton));
+
+		opera.contexts.toolbar.addItem( theButton ); // add button to UI
+
+	}, false);
+
+</script>
+</head>
+<body>
+</body>
+</html>
